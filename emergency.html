@@ -1,2 +1,49 @@
-<h1>Emergency Unit</h1>
-<p>Critical Incoming Cases</p>
+<html>
+<head>
+<title>Emergency Unit</title>
+
+<style>
+body { font-family: Arial; text-align:center; background:#fff3f3; }
+.navbar { background:#2c3e50; padding:15px; }
+.navbar a { color:white; margin:10px; text-decoration:none; font-weight:bold; }
+
+.card {
+  background:white;
+  padding:20px;
+  margin:20px auto;
+  width:300px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.critical { color:red; font-weight:bold; }
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="/">ICU</a>
+  <a href="/general.html">General Ward</a>
+  <a href="/emergency.html">Emergency</a>
+  <a href="/backup.html">Backup Server</a>
+</div>
+
+<h1>🚑 Emergency Monitoring System</h1>
+
+<div class="card">
+  <h2>Patient: Rajesh Kumar</h2>
+  <p>Heart Rate: 140 bpm</p>
+  <p>Oxygen Level: 85%</p>
+  <p class="critical">Status: CRITICAL</p>
+</div>
+
+<div class="card">
+  <h2>Patient: Sunita Rao</h2>
+  <p>Heart Rate: 120 bpm</p>
+  <p>Oxygen Level: 89%</p>
+  <p class="critical">Status: CRITICAL</p>
+</div>
+
+</body>
+</html>
